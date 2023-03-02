@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai17a</title>
+    <style>
+        body{
+            background: #ffd078;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <p>If you are interested in purchasing one or more of our products, before ordering please complete
+        some or all of the following survey for our marketing department. Answering any question is
+        optional, and all information will be kept strictly confidential. Thank you very much for your time!
+    </p>
+    <ol>
+        <li>
+            <label for="name">What is your name?</label><br>
+            <input type="text" name="txtName" id="name" size="30" maxlength="30">
+        </li>
+        <br>
+        <li>
+            <span>What is your date of birth?</span><br>
+            <label for="sltMonth">Month:</label>
+            <select name="month" id="sltMonth">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <label for="sltDate">Date:</label>
+            <select name="date" id="sltDate">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <label for="inpYear">Year:</label>
+            <input type="text" name="txtYear" id="inpYear" size="2" maxlength="2" value="19">
+        </li>
+        <br>
+        <li>
+            <label for="mailAdd">What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?</label><br>
+            <textarea name="mailing" id="mailAdd" cols="50" rows="4">
+Number/P.O. Box/Route:
+Street/Avenue/Road:
+City:
+State/Zip:
+            </textarea>
+        </li>
+        <br>
+        <li>
+            <label for="emailAdd">What is your email address?</label><br>
+            <input type="text" name="email" id="emailAdd">
+        </li>
+        <br>
+        <li>
+            <span>Have you viewed our online product catalog?</span><br>
+            <input type="radio" name="yes" id="radY">
+            <label for="radY">Yes</label>
+            <input type="radio" name="no" id="radN">
+            <label for="radN">No</label>
+        </li>
+        <br>
+        <li>
+            <span>If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that apply.)</span><br>
+            <input type="checkbox" name="VCR" id="vcr">
+            <label for="vcr">VCR</label>
+            <br>
+            <input type="checkbox" name="bigscreenTV" id="bsTV">
+            <label for="bsTV">Big Screen TV</label>
+            <br>
+            <input type="checkbox" name="audioEquipment" id="auEq">
+            <label for="auEq">Audio Equipment</label>
+            <br>
+            <input type="checkbox" name="videoEquipment" id="viEq">
+            <label for="viEq">Video Equipment</label>
+            <br>
+            <input type="checkbox" name="cameraEquipment" id="camEq">
+            <label for="camEq">Camera Equipment</label>
+            <br>
+            <input type="checkbox" name="other" id="oth">
+            <label for="oth">Other</label>
+            <input type="text" name="otherList" id="othList" value="Please List:" size="40">
+        </li>
+        <br>
+        <li>
+            <label for="cusRes">Do you have any questions, comments or suggestions before proceeding to the Order Form?</label><br>
+            <textarea name="note" id="cusRes" cols="50" rows="5">
+Your Input:
+            </textarea>
+        </li>
+    </ol>
+    <input type="submit" name="sendForm" id="send" value="Send Form" style="position: absolute; left:500px">
+    <input type="submit" name="clearForm" id="clear" value="Clear Form" style="position: absolute; right:500px">
+
+</body>
+</html>

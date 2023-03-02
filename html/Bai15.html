@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai15</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Your message:</legend>
+                    <table>
+                        <tr>
+                            <td><label for="emailTo">To</label></td>
+                            <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="emailFrom">Your email</label></td>
+                            <td><input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="emailBody">Message</label></td>
+                            <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>How you found us:</legend>
+                    <table>
+                        <tr>
+                            <td><label for="knowFrom">How did you hear of us?</label></td>
+                            <td><select name="opt" id="knowFrom">
+                                    <option value="Google">Google</option>
+                                    <option value="Facebook">Facebook</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="newsLet">Newsletter</label></td>
+                            <td><input type="checkbox" name="newsCheck" id="newsLet"> Ensure this box is checked if you would like to recive email updates</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Send message"></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend><i>Contact Information</i></legend>
+                    <table>
+                        <tr>
+                            <td><label for="fName">First name:</label></td>
+                            <td><input type="text" name="txtfName" id="fName" size="20"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lName">Last name:</label></td>
+                            <td><input type="text" name="txtlName" id="lName" size="20"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="emailOwn">E-mail:</label></td>
+                            <td><input type="text" name="mail" id="emailOwn" size="20"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend><i>Competition Question</i></legend>
+                    <form action="">
+                        <p>How tall is the Eiffel Tower in Paris, France?</p>
+                        <input type="radio" id="584ft" name="ans" value="584 ft">
+                        <label for="584ft">584 ft</label><br>
+                        <input type="radio" id="784ft" name="ans" value="784 ft">
+                        <label for="784ft">784 ft</label><br>
+                        <input type="radio" id="984ft" name="ans" value="984 ft">
+                        <label for="984ft">984 ft</label><br>
+                        <input type="radio" id="1184ft" name="ans" value="1184 ft">
+                        <label for="1184ft">1184 ft</label><br>
+                    </form>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend><i>Tiebreaker Question</i></legend>
+                    <p style="margin: 0;">In 25 words or less, say why would you like to win $10,000:</p>
+                    <textarea name="txtComm" id="comment" cols="50" rows="10" tabindex="2"></textarea>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend><i>Enter competition</i></legend>
+                    <input type="submit" value="Enter Competition">
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

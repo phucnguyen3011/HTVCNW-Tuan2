@@ -1,0 +1,11 @@
+img{
+    width: 300px;
+    height: 100px;
+}
+.sub-list{
+    list-style: circle;
+}
+div{
+    position: absolute;
+    bottom: 10px;
+}

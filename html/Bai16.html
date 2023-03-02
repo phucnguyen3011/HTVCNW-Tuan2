@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai16</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <p><b>* denotes mandotory</b></p>
+    <form action="">
+        <label for="fName">Full name*:</label><br>
+        <input type="text" name="txtName" id="fName" placeholder="FirstName LastName"><br>
+
+        <label for="email">Email address*:</label><br>
+        <input type="text" name="txtEmail" id="email" placeholder="EMAIL_ADDRESS"><br>
+
+        <label for="select">Select Tour Package*:</label><br>
+        <select name="sltPackage" id="select">
+            <option value="Goa">Goa</option>
+            <option value="Gob">Gob</option>
+        </select><br>
+
+        <label for="arrDate">Arrival date*:</label><br>
+        <input type="datetime" name="txtDate" id="arrDate" placeholder="m/d/y"><br>
+
+        <label for="numPers">Number of Persons*:</label><br>
+        <input type="number" name="numPersons" id="numPers" placeholder="UNKNOWN_TYPE"><br>
+
+        <span>What would you want to avail?*</span><br>
+        <label for="chk1">Boarding</label>
+        <input type="checkbox" name="Boarding" id="chk1"><br>
+        <label for="chk2">Fooding</label>
+        <input type="checkbox" name="Fooding" id="chk2"><br>
+        <label for="chk3">Sight seeing</label>
+        <input type="checkbox" name="Sight seeing" id="chk3"><br>
+
+        <label for="disCode">Discout Coupon code:</label><br>
+        <input type="text" name="txtCode" id="disCode" placeholder="UNKNOWN_TYPE"><br>
+
+        <label for="agrRad">Terms and conditions*</label><br>
+        <input type="radio" name="termsCon" id="agr">
+        <label for="agr">I agree</label>
+        <input type="radio" name="termsCon" id="disAgr">
+        <label for="disAgr">I disagree</label><br>
+
+        <input type="submit" name="submit" id="completeSubmit" value="Complete reservation">
+    </form>
+</body>
+</html>
